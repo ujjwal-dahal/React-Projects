@@ -1,0 +1,39 @@
+/* Styling for individual task rows */
+.semi-container {
+  background-color: #ffffff;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Task description and status */
+.semi-container .col-5,
+.semi-container .col-4 {
+  font-size: 16px;
+  color: #495057;
+}
+
+/* Aligning Delete button */
+.semi-container .col-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Button styling for delete */
+button.btn-danger {
+  padding: 8px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+}
+
+button.btn-danger:hover {
+  background-color: #c82333;
+}

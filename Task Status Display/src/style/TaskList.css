@@ -1,0 +1,36 @@
+/* Main container styling for the Add Task section */
+.main-container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Input fields styling */
+.main-container input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+/* Button styling */
+.main-container .btn-success {
+  padding: 8px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.main-container .btn-success:hover {
+  background-color: #218838;
+}
